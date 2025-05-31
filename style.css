@@ -1,0 +1,222 @@
+     * {
+         font-family: "Plus Jakarta Sans", sans-serif;
+         margin: 0;
+         padding: 0;
+      }
+      body{
+         min-height: 100vh;
+         background-image: linear-gradient(#ffffff, #ebdcff);
+      }
+      #banner{
+        margin: 100px auto 120px auto;
+        width: 87.5%;
+
+        border-radius: 40px;
+        border: 2px solid #872bff10;
+        padding: 20px 30px;
+
+        background-image: url(images/hero-bg.png);
+        background-color: white;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .banner-content{
+        width: 50%;
+      }
+      .banner-content *{
+        margin-bottom: 36px;
+      }
+      .banner-content h1{
+        font-size: 70px;
+        font-weight: bold;
+      }
+      .banner-content p {
+        font-weight: medium;
+        color: #A8A8A8;
+        font-size: 18px;
+      }
+      .banner-content h1 span {
+        color: #F411CF;
+      }
+      .btn {
+        background-color: #872BFF;
+        border-radius: 30px;
+        padding: 16px 32px;
+        color: white;
+        cursor: pointer;
+        margin-right: 10px;
+         gap: 10px;
+
+      }
+      .btn-white {
+         /* background-color: #872BFF; */
+         border: 2px solid #872BFF;
+        border-radius: 30px;
+        padding: 16px 32px;
+        /* color: white; */
+        cursor: pointer;
+        margin-right: 10px;
+      
+      }
+      .banner-image img{
+        width: 600px;
+      }
+
+      #service,
+      #story,
+      #country,
+      #review{
+        width: 87.5%;
+        margin: 0px auto 120px auto;
+      }
+
+      .heading-cntain {
+        text-align: center;
+        margin-bottom: 60px;
+      }
+      .heading-cntain h4 {
+        color: #F411CF;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      .heading-cntain h2 {
+        font-size: 44px;
+        font-weight: bold;
+      }
+
+      #service-card-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+ 
+
+      }
+      .service-card {
+        background-color: white;
+        padding: 60px;
+        text-align: center;
+        width: 300px;
+        border-radius: 30px;
+       
+      }
+      .service-card img {
+        margin-bottom: 30px;
+      }
+      .service-card h2 {
+        font-weight: semibold;
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+      .service-card p {
+        color: #A8A8A8;
+        /* font-size: 18px;
+        font-weight: medium; */
+      }
+
+      .story-card{
+        background-color: white;
+        padding: 40px;
+        border-radius: 24px;
+        display: flex;
+        gap: 24px;
+      }
+
+      .story-container h2 ,
+      .story-container img ,
+      .story-container p {
+        margin-bottom: 30px;
+      }
+
+      .country-card-container{
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 60px;
+      }
+
+         .country-card-container h2{
+            background-color: white;
+            padding: 40px;
+            border-radius: 30px;
+         }
+         .ss{
+            text-align: center;
+         }
+
+         .review1 {
+            background-image: url(images/star-reviews.png);
+            background-color: white;
+            background-repeat: no-repeat;
+            border-radius: 16px;
+            padding: 24px;
+            /* background-position: bottom right; */
+            background-position-x: 1026px;
+            background-position-y: 150px;
+            opacity: 0.5;
+            /* width: 1260px; */
+            /* height: 257px; */
+            margin-bottom: 60px;
+         }
+         .review1 p{
+            text-align: center;
+            font-size: 16px;
+            font-weight: Regular;
+         }
+         .review1 h3{
+            text-align: center;
+            font-weight: bold;
+            color: black;
+         }
+         .p1,
+         .p2{
+            margin-bottom: 54px;
+         }
+
+        .review2 {
+            background-image: url(images/star-reviews.png);
+            background-color: white;
+            background-repeat: no-repeat;
+            border-radius: 16px;
+            padding: 24px;
+            /* background-position: bottom right; */
+            background-position-x: 1026px;
+            background-position-y: 150px;
+            opacity: 0.5;
+            /* width: 1260px; */
+            /* height: 257px; */
+         }
+         .review2 p{
+            text-align: center;
+            font-size: 16px;
+            font-weight: Regular;
+         }
+         .review2 h3{
+            text-align: center;
+            font-weight: bold;
+            color: black;
+         }
+
+         .fotter-sec{
+            padding: 17px 124px;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+         }
+         .fotter-sec p{
+            font-size: 16px;
+            font-weight: Regular;
+         }
+        .box img{
+            margin-right: 20px;
+         }
+
+
+
+
+
